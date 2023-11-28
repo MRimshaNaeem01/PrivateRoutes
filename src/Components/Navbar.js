@@ -2,14 +2,12 @@ import React from 'react'
 
 const Navbar = ({ role }) => {
 
-  // Menu items for Super Admin
   const superAdminMenu = [
     { label: 'Users', path: '/superAdmin/users' },
     { label: 'Subscriptions', path: '/superAdmin/subscriptions' },
     { label: 'Merchants', path: '/superAdmin/merchants' },
   ];
 
-  // Menu items for Store Owner
   const storeOwnerMenu = [
     { label: 'Questions', path: '/storeOwner/questions' },
     { label: 'Products', path: '/storeOwner/products' },

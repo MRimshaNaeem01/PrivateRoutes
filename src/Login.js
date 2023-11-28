@@ -91,7 +91,7 @@ const Login = () => {
                     setErrMsg('')
                 }
                 else if (userData && userData.user.roles && userData.user.roles.includes('store_owner')) {
-                    console.log("yes", userData.user.roles.includes('store_owner'))
+                    //console.log("yes", userData.user.roles.includes('store_owner'))
                     dispatch(settingUser(userData.user.name));
                     dispatch(setUsername(user));
                     dispatch(setAuthenticated(true));

@@ -1,4 +1,3 @@
-// StoreOwnerDashboard.js
 import { useSelector, useDispatch } from 'react-redux';
 import Navbar from '../Components/Navbar';
 import { setLogout } from '../redux/authSlice';
